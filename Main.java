@@ -22,11 +22,10 @@ public class Main {
     }
 
     static void preencheArray(int[] numeros) {
-        int array[] = new int[4];
-        array[0] = 4;
-        array[1] = 9;
-        array[2] = 9;
-        array[3] = 7;
+        numeros[0] = 4;
+        numeros[1] = 9;
+        numeros[2] = 9;
+        numeros[3] = 7;
 
 
     }
@@ -69,6 +68,10 @@ public class Main {
         }
 
 
+    }
+
+    public static void main(String[] args) {
+        
     }
 
 
